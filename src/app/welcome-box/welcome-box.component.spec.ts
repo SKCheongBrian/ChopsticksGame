@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HowToBoxComponent } from './how-to-box.component';
+import { WelcomeBoxComponent } from './welcome-box.component';
 
-describe('HowToBoxComponent', () => {
-  let component: HowToBoxComponent;
-  let fixture: ComponentFixture<HowToBoxComponent>;
+describe('WelcomeBoxComponent', () => {
+  let component: WelcomeBoxComponent;
+  let fixture: ComponentFixture<WelcomeBoxComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ HowToBoxComponent ]
+      declarations: [ WelcomeBoxComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(HowToBoxComponent);
+    fixture = TestBed.createComponent(WelcomeBoxComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
