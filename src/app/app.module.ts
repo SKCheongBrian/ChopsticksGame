@@ -7,8 +7,8 @@ import { AccountLoginSectionComponent } from './pages/home/account-login-section
 import { WelcomeBoxComponent } from './pages/home/welcome-box/welcome-box.component';
 import { ButtonComponent } from './components/button/button.component';
 import { HomeComponent } from './pages/home/home.component';
-import { CreateUserComponent } from './pages/create-user/create-user.component';
-import { SignInComponent } from './pages/sign-in/sign-in.component';
+import { CreateUserComponent } from './pages/user-account/create-user/create-user.component';
+import { SignInComponent } from './pages/user-account/sign-in/sign-in.component';
 
 @NgModule({
   declarations: [
@@ -18,13 +18,10 @@ import { SignInComponent } from './pages/sign-in/sign-in.component';
     ButtonComponent,
     HomeComponent,
     CreateUserComponent,
-    SignInComponent
+    SignInComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
